@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 250px;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+#name {
+  font-size: 2rem;
+  color: #333;
+}
+
+#weather-container {
+  background: #2773a6;
+  background: linear-gradient(90deg, rgb(23, 86, 111) 0%, rgb(29, 128, 70) 50%, rgb(114, 105, 26) 100%);
+  padding: 50px;
+  width: 500px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+#location-form {
+  margin-bottom: 1rem;
+}
+
+#location-input {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+button[type="submit"] {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+#weather-data {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}
