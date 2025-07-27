@@ -1,4 +1,4 @@
-const apiKey = "a57eba55a229e1a20571e79c32a645d9"; // Replace with your actual API key from OpenWeatherMap
+const apiKey = "a57eba55a229e1a20571e79c32a645d9"; 
 
 function getWeather(event) {
   event.preventDefault();
